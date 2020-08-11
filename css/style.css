@@ -38,6 +38,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    min-width: 485px;
 }
 
 /* TOPO */
@@ -129,7 +130,7 @@ body {
 
 /* CONTEÚDO */
 
-.whoami {
+#quemsou {
     order: 3;
     width: 63%;
     align-self: center;
@@ -157,7 +158,6 @@ body {
     order: 1;
     color: var(--roxo);
     font-size: 22px;
-    float: none;
     width: 60%;
     min-width: 300px;
     margin-bottom: 20px;
@@ -174,22 +174,57 @@ body {
     margin-bottom: 20px;
 }
 
-#conteudo2 {
+#projetos {
     order: 5;
+    width: 63%;
+    align-self: center;
+    font-family: 'Montserrat';
+    font-size: 2.2em;
+    margin: 0 auto;
+    color: var(--branco);
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+#conteudo2 {
+    order: 6;
     background-color: var(--roxo);
     padding-top: 20px;
     padding-bottom: 20px;
-    clear: both;
 }
 
 #conteudo2 p{
+    order: 2;
     width: 63%;
     font-size: 22px;;
     margin: 0 auto;
     color: var(--branco);
 }
 
+.item {
+    padding: 150px;
+    margin: 25px;
+	background: var(--branco);
+	text-align: center;
+    font-size: 1.5em;
+    color: var(--roxo);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 #footer {
-    order: 6;
+    font-family: 'Open Sans', sans-serif;
+    order: 8;
+    text-transform: uppercase;
+    background: #715aff;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 100px;
 }
 
